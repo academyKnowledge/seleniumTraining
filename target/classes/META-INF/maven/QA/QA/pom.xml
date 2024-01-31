@@ -30,19 +30,6 @@
 			<scope>test</scope>
 		</dependency>
 		
-		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support -->
-<dependency>
-    <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>selenium-support</artifactId>
-    <version>4.17.0</version>
-</dependency>
-
-
-		<dependency>
-			<groupId>Luma-Maven-Framework</groupId>
-			<artifactId>Luma-Framework</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
 	</dependencies>
 
 	<build>

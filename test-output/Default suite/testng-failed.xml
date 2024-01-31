@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test">
+      <class name="smokeTests.filterProductFunctionality">
         <methods>
-          <include name="searchItem"/>
-          <include name="beforeTest"/>
+          <include name="initData"/>
+          <include name="filterProduct"/>
           <include name="afterTest"/>
         </methods>
-      </class> <!-- test -->
+      </class> <!-- smokeTests.filterProductFunctionality -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

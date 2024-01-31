@@ -6,8 +6,6 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -37,6 +35,7 @@ public class test {
 		driver.get("https://magento.softwaretestingboard.com/");
 		// wait until the elements are shown in site
 		Thread.sleep(1500);
+	
 	}
 
 	@Test(enabled = true,priority = 0, description = "search for item")
@@ -46,7 +45,6 @@ public class test {
 		driver.findElement(By.id("search")).sendKeys("bag" + Keys.ENTER);
 		WebElement element = driver.findElement(By.className("page-title"));
 		System.out.println(element.getText());
-		
 	}
 
 	@Test(enabled = false, priority = 1, description = "print category name")
