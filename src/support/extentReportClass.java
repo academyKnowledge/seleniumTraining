@@ -24,7 +24,7 @@ public class extentReportClass implements ITestListener {
 	} 
 
 	public void onTestFailure(ITestResult result){  
-		extentTest.log(Status.INFO, "Test Fail");
+		extentTest.log(Status.FAIL, "Test Fail");
 	}  
 
 	public void onFinish(ITestContext context) {  
