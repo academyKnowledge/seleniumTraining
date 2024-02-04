@@ -2,14 +2,13 @@ package pageObjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
 import support.Constants;
+import support.extentReportClass;
 
-public class Actions implements Constants {
+public class Actions extends extentReportClass implements Constants {
 	 
 	
 	public void maximizeBrowser(){
