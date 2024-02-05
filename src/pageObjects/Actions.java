@@ -61,4 +61,5 @@ public class Actions extends extentReportClass implements Constants {
         Select dropdown = new Select(dropdownElement);
         dropdown.selectByIndex(index);
 	}
+
 }

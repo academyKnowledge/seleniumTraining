@@ -30,6 +30,7 @@ public class filterProductFunctionality extends Actions {
 	
 	@Test(description="filter functionality")
 	public void filterProduct() {
+
 	    extentTest = extentReport.createTest("filter functionality");
 	    extentTest.log(Status.INFO, "filter Test Start");
 

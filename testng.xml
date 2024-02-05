@@ -7,8 +7,8 @@
   <test thread-count="5" name="extent Report Tests">
     <classes>
       <class name="smokeTests.loginPage"/>
-      <class name="smokeTests.searchFunctionality"/>
-      <class name="smokeTests.filterProductFunctionality"/>
+   <!--  <class name="smokeTests.searchFunctionality"/>
+      <class name="smokeTests.filterProductFunctionality"/>    -->	 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

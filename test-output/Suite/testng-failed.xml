@@ -6,13 +6,6 @@
   </listeners>
   <test thread-count="5" name="extent Report Tests(failed)">
     <classes>
-      <class name="smokeTests.searchFunctionality">
-        <methods>
-          <include name="initData"/>
-          <include name="searchItem"/>
-          <include name="afterTest"/>
-        </methods>
-      </class> <!-- smokeTests.searchFunctionality -->
       <class name="smokeTests.loginPage">
         <methods>
           <include name="initData"/>

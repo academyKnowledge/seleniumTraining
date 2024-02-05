@@ -29,6 +29,7 @@ public class searchFunctionality extends Actions {
 	
 	@Test(description = "search for item")
 	public void searchItem() {
+
 	    extentTest = extentReport.createTest("search functionality");
 	    extentTest.log(Status.INFO, "search Test Start");
 
