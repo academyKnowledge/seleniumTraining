@@ -1,7 +1,6 @@
 package smokeTests;
 
 import java.time.Duration;
-import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -46,18 +45,26 @@ public class loginPage extends Actions {
 
 		}
 	
-	@Test(description="login functionality")
+	@Test(description="login functionality" )
 	public void login() throws InterruptedException {
+          
 		extentTest = extentReport.createTest("Login Functionality","to check login functionality");
 	    extentTest.log(Status.INFO, "login Test Start");
 		action.openLumaWebsite();
-	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));	
+		
+ 	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));	
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("Sign In")));
 		
 //		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-//	    Thread.sleep(4000); 
 		
-	    action.clickOnSignInLink();
+//        Thread.sleep(4000); 
+		
+//	Example  on relative locator 
+//		By element = RelativeLocator.with(By.tagName("span")).below(By.cssSelector(".home-main .title"));
+//		WebElement shopButton = driver.findElement(element);
+//		System.out.println(shopButton.getText());
+
+		action.clickOnSignInLink();
 		action.typeInEmailInputField();
 		action.typeInPasswordInputField();
 		action.clickOnSignInButton();
@@ -65,6 +72,7 @@ public class loginPage extends Actions {
 		Thread.sleep(3000);
 		assertion.checkHeaderIsContain(message);
 	}
+	
 	
 	@AfterSuite
 	public void afterTest() {

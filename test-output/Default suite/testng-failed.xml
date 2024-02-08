@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="smokeTests.loginPage">
+      <class name="smokeTests.testcases">
         <methods>
-          <include name="initData"/>
-          <include name="login"/>
-          <include name="afterTest"/>
+          <include name="myafter"/>
+          <include name="addProductToCompare"/>
+          <include name="myBeforetest"/>
         </methods>
-      </class> <!-- smokeTests.loginPage -->
+      </class> <!-- smokeTests.testcases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

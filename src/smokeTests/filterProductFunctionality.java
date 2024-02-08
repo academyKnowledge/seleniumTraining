@@ -34,7 +34,7 @@ public class filterProductFunctionality extends Actions {
 	    extentTest = extentReport.createTest("filter functionality");
 	    extentTest.log(Status.INFO, "filter Test Start");
 
-		action.clickOnCategory();
+		action.clickOnCategory("What's New");
 		action.clickOnProductLink(productName);
 		action.selectProductByItsIndex(1);     
 	    assertion.checkSelectIsContain(option);

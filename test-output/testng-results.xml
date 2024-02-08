@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-05T20:31:38 EET" name="Default suite" finished-at="2024-02-05T20:31:48 EET" duration-ms="9840">
+  <suite started-at="2024-02-07T21:11:05 EET" name="Default suite" finished-at="2024-02-07T21:11:21 EET" duration-ms="16463">
     <groups>
     </groups>
-    <test started-at="2024-02-05T20:31:38 EET" name="Default test" finished-at="2024-02-05T20:31:48 EET" duration-ms="9840">
-      <class name="smokeTests.loginPage">
-        <test-method is-config="true" signature="initData()[pri:0, instance:smokeTests.loginPage@46fa7c39]" started-at="2024-02-05T20:31:36 EET" name="initData" finished-at="2024-02-05T20:31:38 EET" duration-ms="2165" status="PASS">
+    <test started-at="2024-02-07T21:11:05 EET" name="Default test" finished-at="2024-02-07T21:11:21 EET" duration-ms="16463">
+      <class name="smokeTests.testcases">
+        <test-method is-config="true" signature="myBeforetest()[pri:0, instance:smokeTests.testcases@2177849e]" started-at="2024-02-07T21:11:05 EET" name="myBeforetest" finished-at="2024-02-07T21:11:09 EET" duration-ms="4161" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initData -->
-        <test-method signature="login()[pri:0, instance:smokeTests.loginPage@46fa7c39]" started-at="2024-02-05T20:31:38 EET" name="login" description="login functionality" finished-at="2024-02-05T20:31:48 EET" duration-ms="9798" status="PASS">
+        </test-method> <!-- myBeforetest -->
+        <test-method signature="addProductToCompare()[pri:0, instance:smokeTests.testcases@2177849e]" started-at="2024-02-07T21:11:09 EET" name="addProductToCompare" description="Add Product to Compare List" finished-at="2024-02-07T21:11:21 EET" duration-ms="12100" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:smokeTests.loginPage@46fa7c39]" started-at="2024-02-05T20:31:48 EET" name="afterTest" finished-at="2024-02-05T20:31:48 EET" duration-ms="130" status="PASS">
+        </test-method> <!-- addProductToCompare -->
+        <test-method is-config="true" signature="myafter()[pri:0, instance:smokeTests.testcases@2177849e]" started-at="2024-02-07T21:11:21 EET" name="myafter" finished-at="2024-02-07T21:11:21 EET" duration-ms="171" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- smokeTests.loginPage -->
+        </test-method> <!-- myafter -->
+      </class> <!-- smokeTests.testcases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

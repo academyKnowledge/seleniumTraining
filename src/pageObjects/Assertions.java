@@ -57,4 +57,15 @@ public class Assertions extends extentReportClass implements Constants {
 	    
 	}
 	
+	public void checkMessagebarContainValue(String message) {
+		
+     	Assert.assertEquals(driver.findElement(By.xpath("//*[@id=\"maincontent\"]/div[1]/div[2]/div")).getText(), message );
+
+	}
+	
+	public void checkCounterQtyOfCompareListContainValue(String qty) {
+     	Assert.assertEquals(driver.findElement(By.cssSelector(".compare .counter.qty")).getText(), qty );
+
+	}
+	
 }
